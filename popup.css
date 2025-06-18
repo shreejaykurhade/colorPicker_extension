@@ -1,0 +1,43 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 10px;
+  width: 250px;
+  background: #fdfdfd;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#pickColorBtn, #copyBtn {
+  padding: 8px;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#result {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+#colorBox {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+#hexCode {
+  font-weight: bold;
+  margin-right: 10px;
+  font-family: monospace;
+}
+
+.hidden {
+  display: none;
+}
