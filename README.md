@@ -1,10 +1,10 @@
 # 🎨 Chrome Color Picker Extension
 
-A lightweight and modern Chrome extension that lets you pick any color from a webpage using the native Eyedropper API. Stores selected colors in a clean, user-friendly history panel — with features like copy, delete, and dark mode.
+A lightweight and modern Chrome extension that lets you pick any color from a webpage using the native Eyedropper API. Stores selected colors in a clean, user-friendly history panel — with features like copy, delete, and dark mode.  
 
-< br / > 
-![image](https://github.com/user-attachments/assets/64a7c983-a735-411e-a1ce-90ab63b5120f)
-< br / > 
+
+![image](https://github.com/user-attachments/assets/64a7c983-a735-411e-a1ce-90ab63b5120f)  
+
 ## 🚀 Features
 
 - 🖱️ **Pick any color** from any webpage
