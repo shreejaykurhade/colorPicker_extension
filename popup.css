@@ -1,43 +1,90 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   padding: 10px;
-  width: 250px;
-  background: #fdfdfd;
+  width: 270px;
+  background: #ffffff;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+body.dark {
+  background: #1e1e1e;
+  color: #fff;
 }
 
 h2 {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-size: 16px;
 }
 
-#pickColorBtn, #copyBtn {
-  padding: 8px;
-  font-size: 14px;
+button {
+  padding: 6px;
   margin-top: 10px;
-  cursor: pointer;
   width: 100%;
+  cursor: pointer;
 }
 
 #result {
   display: flex;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 #colorBox {
   width: 24px;
   height: 24px;
-  border: 1px solid #ccc;
-  margin-right: 10px;
+  margin-right: 8px;
   border-radius: 4px;
+  border: 1px solid #ccc;
 }
 
 #hexCode {
   font-weight: bold;
-  margin-right: 10px;
   font-family: monospace;
 }
 
-.hidden {
-  display: none;
+#history {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.colorItem {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  position: relative;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  font-size: 12px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  cursor: pointer;
+}
+
+#darkToggle {
+  margin-top: 10px;
+  background: #444;
+  color: white;
+}
+
+body.dark button {
+  background: #333;
+  color: white;
+}
+
+body.dark .colorItem {
+  border-color: #555;
 }
