@@ -2,16 +2,24 @@
 <html>
 <head>
   <title>Color Picker</title>
-  <link rel="stylesheet" href="popup.css" />
+  <link rel="stylesheet" href="popup.css">
 </head>
 <body>
   <h2>Color Picker</h2>
   <button id="pickColorBtn">Pick Color</button>
+
   <div id="result" class="hidden">
     <div id="colorBox"></div>
     <span id="hexCode"></span>
     <button id="copyBtn">Copy</button>
   </div>
+
+  <h3>History</h3>
+  <div id="history"></div>
+  <button id="clearBtn">Clear History</button>
+
+  <button id="darkToggle">Toggle Dark Mode</button>
+
   <script src="popup.js"></script>
 </body>
 </html>
